@@ -130,7 +130,6 @@ public class SquareJumpWorld extends JComponent {
 //		Rectangle rectangle = new Rectangle();
 		g2.fillRect(xWorld, getyTop()-(100+squareHeight), squareWidth , squareHeight);
 		this.xMinus++;
-		System.out.println(xWorld+" "+W+" "+H);
 		
 	}
 	

@@ -15,6 +15,10 @@ public class SquareJump {
 		
 		
 		SquareJumpPanel newPanel = new SquareJumpPanel();
+		myFrame.add(newPanel);
+		
+		MyKeyAdapter newKeyAdapter = new MyKeyAdapter();
+		myFrame.addKeyListener(newKeyAdapter);
 		
 		
 		SquareJumpWorld figure1 = new SquareJumpWorld(0);
@@ -25,7 +29,7 @@ public class SquareJump {
 
 //		myFrame.add(figure1);
 
-		myFrame.add(newPanel);
+		
 		newPanel.add(figure1);
 		newPanel.add(figure2);
 		newPanel.add(figure3);
